@@ -1,0 +1,207 @@
+html {
+    background-image: url('bg.png');
+    min-height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header, #content, body, p, h1, h2, #footer, a, nav {
+margin: 0;
+padding: 0;
+position: relative;
+
+} 
+
+
+
+#keskitys{
+  margin: 0; 
+  padding: 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+
+}
+
+#header {
+        margin: 40px 0 0 0;
+	background: rgb(44,62,80);
+	min-height: 110px;     
+        color: white;  
+        padding: 0px 0px 0px 80px;       
+         font-size: 2rem;
+         font-weight: bold;
+         padding-left: 80px;
+         border-radius: 30px 30px 0 0 ;
+}
+
+#content {
+        background: rgb(192,192,192);      
+}
+
+#main, #footer {
+        background:  gray; 
+        font-size: 22px;        
+}
+      
+#footer {
+  border-radius:  0 0 30px 30px ;
+}      
+      
+         
+body {
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin: 0 auto;
+  max-width: 50em;
+  line-height: 1.5;
+}
+
+img {
+  float: right;
+  padding: 30px 200px 0 0;
+}
+
+h2 {
+font-size: 66px;
+color: rgb(44,62,80);
+}
+
+h2 {
+padding-left: 70px;
+}
+
+p {
+font-size: 2rem;
+padding-left: 50px;
+padding-right: 50px;
+}
+
+.pee{
+font-size: 1em;
+padding-left: 17px;
+padding-right: 0px;
+display: inline;
+}
+
+a {
+  font-size: 2em;
+  padding-left: 80px;
+}
+
+
+@-ms-viewport{                      
+  width: device-width;
+}
+
+a:link    {color:green; background-color:transparent; text-decoration:none}
+a:visited {color:rgb(128,128,0); background-color:transparent; text-decoration:none}
+a:hover   {color:red; background-color:transparent; text-decoration:underline}
+a:active  {color:yellow; background-color:transparent; text-decoration:underline}	
+
+nav {
+  background-color: #FFF;
+  padding: 5px;
+}
+
+nav li {
+
+  display: inline;
+  font-size: 1em;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 30px 32px 30px 50px;
+    cursor: pointer;
+    font-size: 44px;
+    border-radius: 12px;
+}
+
+.button:hover {
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ .draggable {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0px;
+  background-color: #fff;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 12px; 
+ }
+ 
+ .droppable {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+  background: linear-gradient(#eee, #aaa);
+  text-align: center;
+  border-radius: 12px;
+ }
+ 
+ .choice {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+  background: linear-gradient(#eee, #aaa);
+  text-align: center;
+  border-radius: 12px;
+ }
+ 
+.first{
+}
+
+.second {
+  clear: left;
+  display: none;  
+}
+
+.third {
+  clear: left;
+  display: none;  
+}
+
+.end {
+  clear: left;
+  display: none;  
+  padding-bottom: 0px;
+}
+
+   #panel, #flip {   
+    background-color: rgb(135,206,250);
+    border: solid 1px #c3c3c3;
+}
+
+#panel {
+    padding-bottom: 159px;
+    padding-left: 20px;
+    display: none;
+}
+
+
+.draggable p, .droppable p, .choice p {
+  font-size: 1.5em;
+  padding: 0px;
+}
