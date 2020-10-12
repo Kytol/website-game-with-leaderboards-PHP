@@ -56,8 +56,8 @@ class TableRows extends RecursiveIteratorIterator {
 
 $servername = "localhost";
 $username = "ROOT";
-$password = "lolman";
-$dbname = "highscore";
+$password = "*****";
+$dbname = "*****";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
@@ -78,17 +78,13 @@ $conn = null;
 echo "</table>";
 ?>
 </div>
-
-
-
-
-        <br>
-      </div>
-      </main>
-    </div>
-    <div id="footer">
-      <p>All rights reserved.
-      </p>
-      </div>
+         <br>
+     	 </div>
+     	 </main>
+   	 </div>
+   	 <div id="footer">
+         <p>All rights reserved.
+         </p>
+         </div>
   </body>
 </html>
